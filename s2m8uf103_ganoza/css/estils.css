@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e6e8eb;
-    font-family: Lucida Grande, Tahoma, Segoe UI, San Francisco, Roboto
+    font-family: Lucida Grande, Tahoma, Segoe UI, San Francisco, Roboto;
   }
 
   #barra {
@@ -66,6 +66,9 @@ body {
     background-repeat: no-repeat;
     background-position: 50% 37px ;
   }
+  #menu ul{
+
+  }
   #contingut {
     border-top: solid 1px #e6e8eb;
   }
@@ -76,9 +79,10 @@ body {
     border-radius: 3px;
     margin: 10px 0;
     padding: 0;
+    float: left;
+    clear: both;
   }
   .esquerra h4 {
-    background-color: yellow;
     height: 14px;
     padding: 5px;
     font-weight: normal;
@@ -126,7 +130,6 @@ body {
   }
 
   #fotos ul li {
-    background-color: yellowgreen;
     background-size: 99px 99px;
     display: block;
     width: 99px;
@@ -142,7 +145,6 @@ body {
     padding: 0;
   }
   .esquerra ul {
-    background-color: red;
     margin-top: 20px;
   }
 
@@ -175,7 +177,6 @@ body {
   }
 
   #amics ul li {
-    background-image: url(../img/perfil.jpg);
     background-size: 99px 99px;
     display: block;
     width: 99px;
@@ -195,38 +196,135 @@ body {
   }
 
   #a01 {
-    background-image: url(../img/dogs/f01.jpg);
+    background-image: url(https://rtirado2018.github.io/MP08/s2m8uf103_tirado%20/img/perfil.jpg);
   }
   #a02 {
-    background-image: url(../img/dogs/f02.jpg);
+    background-image: url(https://npedraza2018.github.io/MP08/s2m8uf103_pedraza/img/perfil.jpg);
   }
   #a03 {
-    background-image: url(../img/dogs/f03.jpg);
+    background-image: url(https://ielmajidi2018.github.io/MP08/s2m8uf103_elmajidi/img/perfil.jpg);
   }
   #a04 {
-    background-image: url(../img/dogs/f04.jpg);
+    background-image: url(https://aganoza2018.github.io/MP08/s2m8uf103_ganoza/img/perfil.jpg);
   }
   #a05 {
-    background-image: url(../img/dogs/f05.jpg);
+    background-image: url(https://sestall2018.github.io/MP08/s2m8uf103_estall/img/perfil.jpg);
   }
   #a06 {
-    background-image: url(../img/dogs/f06.jpg);
+    background-image: url(https://jricart2018.github.io/MP08/s2m8uf103_ricart/img/perfil.jpg);
   }
   #a07 {
-    background-image: url(../img/dogs/f07.jpg);
+    background-image: url(https://acalvo2018.github.io/MP08/s2m8uf103_calvo/img/perfil.jpg);
   }
   #a08 {
-    background-image: url(../img/dogs/f08.jpg);
+    background-image: url(https://amanchon2018.github.io/MP08/s2m8uf103_manchon/img/perfil.jpg);
   }
   #a09 {
-    background-image: url(../img/dogs/f09.jpg);
+    background-image: url(https://calvarez2018.github.io/MP08/s2m8uf103_alvarez/img/perfil.jpg);
   }
   #a10 {
-    background-image: url(../img/dogs/f07.jpg);
+    background-image: url(https://mlozano2018.github.io/MP08/s2m8uf103_lozano/img/perfil.jpg);
   }
   #a11 {
-    background-image: url(../img/dogs/f08.jpg);
+    background-image: url(https://fxolle2018.github.io/MP08/s2m8uf103_olle/img/perfil.jpg);
   }
   #a12 {
-    background-image: url(../img/dogs/f09.jpg);
+    background-image: url(https://kbaquerizo2018.github.io/MP08/s2m8uf103_baquerizo/img/perfil.jpg);
+  }
+
+  .dreta {
+    width: 513px;
+    border: solid 1px #CCC;
+    margin: 10px 0;
+    border-radius: 3px;
+    float: right;
+    position: relative;
+    top: -635px;
+  }
+
+  #pensa {
+    padding: 0;
+    position: relative;
+  }
+  #pensa ul {
+    height: 40px;
+    background-color: #f5f6f8;
+    margin: 0;
+    padding: 0;
+  }
+  #pensa ul li {
+    height: 40px;
+    float: left;
+    margin: 5px 10px 0 30px;
+    padding:0;
+    border-right: solid 1px #CCC;
+    font-size: 14px;
+  }
+  #pensa div {
+    height: 36px;
+    width: 509px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #pensa div input{
+    height: 30px;
+    width: 510px;
+    margin: 0;
+    padding: 0;
+  }
+
+  #pensa ul li a {
+    display: block;
+    height: 35px;
+  }
+
+  #pensa ul li a:hover {
+    background-image: url(../img/selec.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 30px;
+  }
+
+  #pensa .estado {
+    list-style-image: url(../img/estado.png);
+  }
+  #pensa .foto {
+    list-style-image: url(../img/foto.png);
+  }
+  #pensa .lugar {
+    list-style-image: url(../img/lugar.png);
+  }
+  #pensa .acontecimiento {
+    list-style-image: url(../img/acontecimiento.png);
+  }
+
+  /* ---------- Estils del mur --------- */
+  h5 {
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    height: 10px;
+    padding: 5px;
+  }
+
+  h6 {
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    height: 10px;
+    padding: 5px;
+  }
+
+  .postintro {
+    padding: 10px 10px 10px 50px;
+    background-image: url(../img/perfil.jpg);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: 10px 10px;
+  }
+
+  .post img, .post iframe, .post p {
+    font-size: 12px;
+    padding: 10px;
+    width: 493px;
   }
